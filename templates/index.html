@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ headline }}</title>
+    <style>
+        body { font-family: Arial; display:flex; justify-content:center; align-items:center; height:100vh; background:#f0f4f7; margin:0; }
+        .container { background:white; padding:40px 30px; border-radius:15px; text-align:center; box-shadow:0 5px 15px rgba(0,0,0,0.1); max-width:400px; }
+        h1 { color:#333; margin-bottom:20px; }
+        p { color:#555; margin-bottom:30px; }
+        .cta-button { background:#ff5722; color:white; font-size:18px; padding:15px 25px; border:none; border-radius:10px; text-decoration:none; display:inline-block; }
+        .cta-button:hover { background:#e64a19; }
+        footer { margin-top:20px; font-size:12px; color:#999; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>{{ headline }}</h1>
+        <p>Enter your email and ZIP to claim rewards from top brands. Quick and easy!</p>
+        <a href="/go" class="cta-button">{{ cta_text }}</a>
+    </div>
+    <footer>&copy; 2026 Your Website Name. All Rights Reserved.</footer>
+</body>
+</html>
